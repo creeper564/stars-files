@@ -1,0 +1,21 @@
+{
+  "$schema": "file:///C:/stars-launcher-files/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "Stars SMP",
+    "description": "Stars SMP - Minecraft 26.2",
+    "icon": "",
+    "address": "play.stars-smp.fr",
+    "discord": {
+      "shortId": "Stars SMP",
+      "largeImageText": "Stars SMP",
+      "largeImageKey": "stars-logo"
+    },
+    "mainServer": true,
+    "autoconnect": true
+  },
+  "fabric": {
+    "version": "0.20.1"
+  },
+  "untrackedFiles": []
+}

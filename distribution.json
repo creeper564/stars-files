@@ -1,0 +1,971 @@
+{
+  "version": "1.0.0",
+  "rss": "",
+  "discord": {
+    "clientId": "1569979250998775818",
+    "smallImageText": "STARS Launcher",
+    "smallImageKey": "stars-logo"
+  },
+  "servers": [
+    {
+      "id": "Stars-26.2-26.2",
+      "name": "Stars SMP",
+      "description": "Stars SMP - Minecraft 26.2",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "play.stars-smp.fr",
+      "minecraftVersion": "26.2",
+      "discord": {
+        "shortId": "Stars SMP",
+        "largeImageText": "Stars SMP",
+        "largeImageKey": "stars-logo"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.20.1",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1988880,
+            "MD5": "2e3dc8eebfde75fc8078c931090cd46f",
+            "url": "https://creeper564.github.io/stars-files/repo/lib/net/fabricmc/fabric-loader/0.20.1/fabric-loader-0.20.1.jar"
+          },
+          "subModules": [
+            {
+              "id": "26.2-fabric-0.20.1",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2778,
+                "MD5": "3b9136b272410a7fc0de96d3f70677db",
+                "url": "https://creeper564.github.io/stars-files/repo/versions/26.2-fabric-0.20.1/26.2-fabric-0.20.1.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.10.1",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126151,
+                "MD5": "9cb72080438acf27f2607002e1444a7b",
+                "url": "https://creeper564.github.io/stars-files/repo/lib/org/ow2/asm/asm/9.10.1/asm-9.10.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.10.1",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35140,
+                "MD5": "6dd9011ec87f65e4b2e14e938c4118e4",
+                "url": "https://creeper564.github.io/stars-files/repo/lib/org/ow2/asm/asm-analysis/9.10.1/asm-analysis-9.10.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.10.1",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 74840,
+                "MD5": "8eee0b1bdd046baf472eb83dd5e6bb44",
+                "url": "https://creeper564.github.io/stars-files/repo/lib/org/ow2/asm/asm-commons/9.10.1/asm-commons-9.10.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.10.1",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51958,
+                "MD5": "62541e1dc62331408ef31317555bf4fa",
+                "url": "https://creeper564.github.io/stars-files/repo/lib/org/ow2/asm/asm-tree/9.10.1/asm-tree-9.10.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.10.1",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 95628,
+                "MD5": "d0892ecb209867805e7d2418e5dc6c42",
+                "url": "https://creeper564.github.io/stars-files/repo/lib/org/ow2/asm/asm-util/9.10.1/asm-util-9.10.1.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.17.5+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1551593,
+                "MD5": "5fd69fb11801c52d88a854ffe05eb839",
+                "url": "https://creeper564.github.io/stars-files/repo/lib/net/fabricmc/sponge-mixin/0.17.5+mixin.0.8.7/sponge-mixin-0.17.5+mixin.0.8.7.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "io.github.foundationgames:animatica:0.6.3+26.2@jar",
+          "name": "Animatica Refabricated",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 117443,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/animatica-0.6.3+26.2.jar",
+            "MD5": "794c9f908f4d088916e78aaec87af26e"
+          }
+        },
+        {
+          "id": "squeek.appleskin:appleskin:3.0.10+mc26.2@jar",
+          "name": "AppleSkin",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 181627,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/appleskin-fabric-mc26.2-3.0.10.jar",
+            "MD5": "5aa3c692cc889ef4844b1412d6b86c40"
+          }
+        },
+        {
+          "id": "generated.fabricmod:badoptimizations:2.4.1@jar",
+          "name": "BadOptimizations",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 60709,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/BadOptimizations-2.4.1-26.2-fabric.jar",
+            "MD5": "7394487cacb01f6e19ba14fc976e9b39"
+          }
+        },
+        {
+          "id": "betterblockentities:betterblockentities:1.3.8-beta.1+mc26.2@jar",
+          "name": "BBE",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 206826,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/bbe-fabric-1.3.8-beta.1+mc26.2.jar",
+            "MD5": "7593fc02e786c26557b8f154140c769c"
+          }
+        },
+        {
+          "id": "me.cominixo:betterf3:19.0.0@jar",
+          "name": "BetterF3",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 719081,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/BetterF3-19.0.0-Fabric-26.2.jar",
+            "MD5": "7fd0a1c005919c6c0816e25318864e30"
+          }
+        },
+        {
+          "id": "generated.fabricmod:bettergrassify:1.8.7+fabric.26.2@jar",
+          "name": "BetterGrassify",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 88858,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/BetterGrassify-1.8.7+fabric.26.2.jar",
+            "MD5": "8c13bb98272c61f22aec944519c09186"
+          }
+        },
+        {
+          "id": "net.uku3lig:betterhurtcam:1.14.0+mc26.2@jar",
+          "name": "BetterHurtCam",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 34738,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/betterhurtcam-fabric-1.14.0+mc26.2.jar",
+            "MD5": "f56bd5ae08644bb684142801794bc42a"
+          }
+        },
+        {
+          "id": "generated.fabricmod:bettermounthud:1.3.1@jar",
+          "name": "Better Mount HUD",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 20780,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/bettermounthud-1.3.1.jar",
+            "MD5": "22c665b2e8ea22d26368cb20116ea8c1"
+          }
+        },
+        {
+          "id": "com.thecsdev:betterstats:5.5.6+fabric-26.2@jar",
+          "name": "Better Statistics Screen",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 405494,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/betterstats-5.5.6+fn-26.2.jar",
+            "MD5": "4ea4e78abed5e4ae8674b2ab3d7cd84b"
+          }
+        },
+        {
+          "id": "net.litetex.capes:cape-provider:5.5.0@jar",
+          "name": "Cape Provider",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 204240,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/cape-provider-5.5.0.jar",
+            "MD5": "3c780f64ca896c8daff2f8c4921975dc"
+          }
+        },
+        {
+          "id": "dzwdz.chat_heads:chat_heads:1.2.8@jar",
+          "name": "Chat Heads",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 94568,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/chat_heads-1.2.8-fabric-26.1.jar",
+            "MD5": "6c02f9d5ec8cdf22c0057715282c5382"
+          }
+        },
+        {
+          "id": "me.shedaniel.autoconfig.example:cloth-config:26.2.155@jar",
+          "name": "Cloth Config v26.2",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1135186,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/cloth-config-26.2.155.jar",
+            "MD5": "776ec6f7bea662823c7acc7aa8b66c68"
+          }
+        },
+        {
+          "id": "generated.fabricmod:clumps:26.2.1@jar",
+          "name": "Clumps",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 19950,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/Clumps-fabric-26.2-26.2.1.jar",
+            "MD5": "1d74d4e043987f04c6d91c6dcde0405d"
+          }
+        },
+        {
+          "id": "me.sootysplash.box:combat-hitboxes:1.0.11@jar",
+          "name": "Combat Hitboxes",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 25471,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/combat-hitbox-1.0.11.jar",
+            "MD5": "01e47abea80134e2a9b88b7f9eb581a4"
+          }
+        },
+        {
+          "id": "io.github.thebossmagnus.mods:config_manager:1.1.3@jar",
+          "name": "Config Manager",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 88871,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/ConfigManager-fabric-26.1_26.2-1.1.3.jar",
+            "MD5": "5862ad81db0908b8fb10d1d6b430648a"
+          }
+        },
+        {
+          "id": "me.pepperbell:continuity:3.0.1+26.2@jar",
+          "name": "Continuity",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1040013,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/continuity-3.0.1+26.2.jar",
+            "MD5": "8d529a0906965c60115719a401ba3d43"
+          }
+        },
+        {
+          "id": "dev.isxander:controlify:3.2.1+mc26.2@jar",
+          "name": "Controlify",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 6252285,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/controlify-3.2.1+mc26.2-universal.jar",
+            "MD5": "bd4333c0e5e91283115867b59637caeb"
+          }
+        },
+        {
+          "id": "walksy.crosshairaddons:crosshairaddons:2.1.4-26.2@jar",
+          "name": "Crosshair Addons",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 37878,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/CrosshairAddons-2.1.4-26.2.jar",
+            "MD5": "643b66cb7382d46f4abad2dabfb3b8fe"
+          }
+        },
+        {
+          "id": "generated.fabricmod:cwb:4.1.0+26.2@jar",
+          "name": "Cubes Without Borders",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 91405,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/cwb-4.1.0+26.2.jar",
+            "MD5": "15ea107b0c1759a70c1a342d855bae29"
+          }
+        },
+        {
+          "id": "dev.isxander:debugify:26.2.0.0@jar",
+          "name": "Debugify",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 368634,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/debugify-26.2.0.0.jar",
+            "MD5": "6e1a8311c4bdca5eb22700f243e5ba6d"
+          }
+        },
+        {
+          "id": "com.supermartijn642:durabilitytooltip:1.2.0@jar",
+          "name": "Durability Tooltip",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 21019,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/durabilitytooltip-1.2.0-fabric-mc26.2.jar",
+            "MD5": "463653a428459370eca0ea6daa438a45"
+          }
+        },
+        {
+          "id": "net.lostluma.dynamic_fps.impl.fabric.compat:dynamic_fps:3.11.9@jar",
+          "name": "Dynamic FPS",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 188740,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/dynamic-fps-3.11.9+minecraft-26.2.0-fabric.jar",
+            "MD5": "bbd6ce171a7c37fed0dba4d96f91f400"
+          }
+        },
+        {
+          "id": "mod.crend:dynamiccrosshair:9.14@jar",
+          "name": "Dynamic Crosshair",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 536169,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/dynamiccrosshair-9.14+26.2-fabric.jar",
+            "MD5": "76a358938161216d8ffedac5b24af829"
+          }
+        },
+        {
+          "id": "link.e4mc:e4mc:6.2.1+modern@jar",
+          "name": "E4mc",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 661759,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/e4mc-fabric-6.2.1-modern.jar",
+            "MD5": "d80083070830765e3789fe98f5c210fa"
+          }
+        },
+        {
+          "id": "net.darkhax:enchdesc:26.2.0.2@jar",
+          "name": "EnchantmentDescriptions",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 81821,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/EnchantmentDescriptions-fabric-MC26.2-26.2.0.2.jar",
+            "MD5": "8cfcb67420ea2429a3748c8cc1e825cb"
+          }
+        },
+        {
+          "id": "generated.fabricmod:entity_model_features:3.2.6-26.2-fabric@jar",
+          "name": "Entity_model_features",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 587342,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/entity_model_features-3.2.6-26.2-fabric.jar",
+            "MD5": "768d74969215c21b9582cd400fca5439"
+          }
+        },
+        {
+          "id": "generated.fabricmod:entity_texture_features:7.1.1-26.2-fabric@jar",
+          "name": "Entity_texture_features",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 762131,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/entity_texture_features-7.1.1-26.2-fabric.jar",
+            "MD5": "e2ebc8e63d9f6b7116662f02954813c5"
+          }
+        },
+        {
+          "id": "dev.tr7zw:entityculling:1.10.5@jar",
+          "name": "EntityCulling",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1583775,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/entityculling-fabric-1.10.5-mc26.2.jar",
+            "MD5": "a5386ffd224844effbbfa2e8b4784824"
+          }
+        },
+        {
+          "id": "generated.fabricmod:essential-container:1.0.0@jar",
+          "name": "Essential-container",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 52696199,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/Essential_1-5-0-1_fabric_26-2.jar",
+            "MD5": "b710e783eb57d9fc6d5a55bcb088f883"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.156.0+26.2@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2531175,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/fabric-api-0.156.0+26.2.jar",
+            "MD5": "a42e80da3fadb6f202c7dc7f021408f5"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-language-kotlin:1.13.13+kotlin.2.4.10@jar",
+          "name": "Fabric Language Kotlin",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 8076363,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/fabric-language-kotlin-1.13.13+kotlin.2.4.10.jar",
+            "MD5": "b70470268be8c74a10e10b24a2bf7df6"
+          }
+        },
+        {
+          "id": "me.contaria:fastquit:3.1.5+mc26.2@jar",
+          "name": "FastQuit",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 63310,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/fastquit-3.1.5+mc26.2.jar",
+            "MD5": "485f105d47952e6423ac472267d134f7"
+          }
+        },
+        {
+          "id": "generated.fabricmod:ferritecore:9.0.0@jar",
+          "name": "FerriteCore",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 72677,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/ferritecore-9.0.0-fabric.jar",
+            "MD5": "9d96f643cfd220b75f47c94ea56ebc2a"
+          }
+        },
+        {
+          "id": "fuzs.forgeconfigapiport.fabric.impl:forgeconfigapiport:26.2.1@jar",
+          "name": "Forge Config API Port",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 609550,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/ForgeConfigAPIPort-v26.2.1-mc26.2.x-Fabric.jar",
+            "MD5": "bb4e3132796ab0e4bee044e8f11f6941"
+          }
+        },
+        {
+          "id": "de.n8M4:fullbright:1@jar",
+          "name": "Fullbright",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 5384,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/Fullbright-Fabric-26.2.jar",
+            "MD5": "ba9b46c5a687b3f1b44a7dda8e156251"
+          }
+        },
+        {
+          "id": "generated.fabricmod:mr_health_indicator:4@jar",
+          "name": "Health Indicator",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 4386,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/health-indicator-4.jar",
+            "MD5": "9fcf30215ce3808c370622945c179127"
+          }
+        },
+        {
+          "id": "com.anthonyhilyard:iceberg:1.4.2.1@jar",
+          "name": "Iceberg",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 360080,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/Iceberg-26.2-fabric-1.4.2.1.jar",
+            "MD5": "beeb58bc24a7c7f6ff5cd84a6561a3f1"
+          }
+        },
+        {
+          "id": "generated.fabricmod:immediatelyfast:1.16.2+26.2@jar",
+          "name": "ImmediatelyFast",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 91422,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/ImmediatelyFast-Fabric-1.16.2+26.2.jar",
+            "MD5": "d7a174061600c61077e4270136de2153"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.11.2+mc26.2@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2820763,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/iris-fabric-1.11.2+mc26.2.jar",
+            "MD5": "11c0b0d99bf9d9cb55f9e35a2d6bb85f"
+          }
+        },
+        {
+          "id": "com.anthonyhilyard:itemborders:1.3.2@jar",
+          "name": "Item Borders",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 23009,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/ItemBorders-26.2-fabric-1.3.2.jar",
+            "MD5": "408d68cef8c33dd1c379180907e28718"
+          }
+        },
+        {
+          "id": "me.decce:ixeris:4.6.2+26.2-fabric@jar",
+          "name": "Ixeris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 757485,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/Ixeris-4.6.2+26.2-fabric.jar",
+            "MD5": "691c51c1064884df305cf73dc839fc22"
+          }
+        },
+        {
+          "id": "snownee.jade:jade:26.2.11+fabric@jar",
+          "name": "Jade",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1043764,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/Jade-mc26.2-Fabric-26.2.11.jar",
+            "MD5": "63081e7c1cbf9a2a2f914a5aa32cc24a"
+          }
+        },
+        {
+          "id": "jerozgen.languagereload:languagereload:1.7.7+26.2@jar",
+          "name": "Language Reload",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 77258,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/language-reload-1.7.7+26.2.jar",
+            "MD5": "bda70f06aa36c248cc05f1dad7df53b7"
+          }
+        },
+        {
+          "id": "net.caffeinemc.mods:lithium:0.25.3+mc26.2@jar",
+          "name": "Lithium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 912850,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/lithium-fabric-0.25.3+mc26.2.jar",
+            "MD5": "ee8279ea831c40de6ab0a5a8c52370c9"
+          }
+        },
+        {
+          "id": "dev.isxander.mainmenucredits:main_menu_credits:1.4.0+26.2@jar",
+          "name": "Main Menu Credits",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 31011,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/main-menu-credits-1.4.0+26.2-universal.jar",
+            "MD5": "b0193613f9b437d91c0e3ec5e1b8a17d"
+          }
+        },
+        {
+          "id": "fi.dy.masa:malilib:0.29.6@jar",
+          "name": "MaLiLib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2037195,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/malilib-fabric-26.2-0.29.6.jar",
+            "MD5": "255bb9ad4e5f6910ff1984d17c2395bb"
+          }
+        },
+        {
+          "id": "generated.fabricmod:mixintrace:1.0@jar",
+          "name": "MixinTrace Reborn",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7167,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/mixintrace-1.0-26.1-universal.jar",
+            "MD5": "de87dd33ae556863cce8c6f815133bf9"
+          }
+        },
+        {
+          "id": "com.terraformersmc:modmenu:20.0.1@jar",
+          "name": "Mod Menu",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 614002,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/modmenu-20.0.1.jar",
+            "MD5": "87749d37d34f7e3b9d41f93135474346"
+          }
+        },
+        {
+          "id": "ca.fxco:moreculling:1.8.0@jar",
+          "name": "More Culling",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 364530,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/moreculling-fabric-26.2-1.8.0.jar",
+            "MD5": "13a4f77370856bff3bbc66f1b1c07f78"
+          }
+        },
+        {
+          "id": "yalter.mousetweaks:mousetweaks:2.31@jar",
+          "name": "Mouse Tweaks",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 75872,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/MouseTweaks-fabric-mc26.2-2.31.jar",
+            "MD5": "ea54d30650e306e2cbc6a4b9910d7a9b"
+          }
+        },
+        {
+          "id": "opekope2.optigui:optigui:2.3.0-beta.10+26.2@jar",
+          "name": "OptiGUI",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 610116,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/optigui-2.3.0-beta.10+26.2.jar",
+            "MD5": "78000a7f941bbb995a0aaa05a8e38edf"
+          }
+        },
+        {
+          "id": "de.dafuqs:paginatedadvancements:2.8.0+26.2@jar",
+          "name": "Paginated Advancements",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 80718,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/paginatedadvancements-2.8.0+26.2.jar",
+            "MD5": "a80e808e3ba3cf5bbd4bff4f462a2446"
+          }
+        },
+        {
+          "id": "fuzs.pickupnotifier:pickupnotifier:26.2.0@jar",
+          "name": "Pick Up Notifier",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 72584,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/PickUpNotifier-v26.2.0-mc26.2.x-Fabric.jar.disabled",
+            "MD5": "8c4ac6001762b85563b767b942c5790e"
+          }
+        },
+        {
+          "id": "generated.fabricmod:placeholder-api:3.1.0-beta.1+26.2@jar",
+          "name": "Placeholder API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 254973,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/placeholder-api-3.1.0-beta.1+26.2.jar",
+            "MD5": "2acee95d87c4e626781880017e3ee03d"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar.polytone.platform:polytone:26.2-5.10.2@jar",
+          "name": "Polytone",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1881039,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/polytone-fabric-26.2-5.10.2.jar",
+            "MD5": "36532f30fdefcf5a32aa8fa2034eab05"
+          }
+        },
+        {
+          "id": "generated.fabricmod:potioncounter:1.12.0+mc26.2@jar",
+          "name": "PotionCounter",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 35315,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/potioncounter-fabric-1.12.0+mc26.2.jar",
+            "MD5": "a8c89f6b1be1e78f381dd8297bdabd29"
+          }
+        },
+        {
+          "id": "net.darkhax.pricklemc:prickle:26.2.0.3@jar",
+          "name": "PrickleMC",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 84889,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/PrickleMC-fabric-MC26.2-26.2.0.3.jar",
+            "MD5": "a9cb67de8976c27f9fb68fa4bbfa5950"
+          }
+        },
+        {
+          "id": "generated.fabricmod:prism:1.1.2@jar",
+          "name": "Root project 'Prism'",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 60462,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/Prism-26.2-fabric-1.1.2.jar",
+            "MD5": "83611aedd3ff9e0b1808b49b5de9e904"
+          }
+        },
+        {
+          "id": "net.puzzlemc.core:puzzle:2.3.1@jar",
+          "name": "Puzzle",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 97609,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/puzzle-fabric-2.3.1+26.2.jar",
+            "MD5": "54db093ae8a72fb85f3fcdeff40d2c51"
+          }
+        },
+        {
+          "id": "fuzs.puzzleslib.fabric.impl:puzzleslib:26.2.4@jar",
+          "name": "Puzzles Lib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1153533,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/PuzzlesLib-v26.2.4-mc26.2.x-Fabric.jar",
+            "MD5": "635c8ec8644606ff4453d80ba3e2e449"
+          }
+        },
+        {
+          "id": "generated.fabricmod:reeses-sodium-options:2.2.3+mc26.2@jar",
+          "name": "Reese's Sodium Options",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 259465,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/reeses-sodium-options-fabric-2.2.3+mc26.2.jar",
+            "MD5": "2e6d430cd9052ada02bdb032dd659ecd"
+          }
+        },
+        {
+          "id": "dev.dediamondpro:resourcify:1.8.6@jar",
+          "name": "Resourcify",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2865469,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/Resourcify%20(26.2-fabric)-1.8.6.jar",
+            "MD5": "73f0251f410d758098b61c4d3d21ed71"
+          }
+        },
+        {
+          "id": "org.redlance.dima_dencep.mods:rrls:5.2.8+mc.26.2@jar",
+          "name": "Remove Reloading Screen",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 119145,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/rrls-5.2.8+mc.26.2.jar",
+            "MD5": "b236fc5238abc75b8b24d6b3c45603c7"
+          }
+        },
+        {
+          "id": "com.misterpemodder:shulkerboxtooltip:5.4.1+26.2@jar",
+          "name": "Shulker Box Tooltip",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 422638,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/shulkerboxtooltip-fabric-5.4.1+26.2.jar",
+            "MD5": "8f102ca269041dfb5d5a7dde806b821e"
+          }
+        },
+        {
+          "id": "dev.tr7zw.skinlayers:skinlayers3d:1.11.3@jar",
+          "name": "3d-Skin-Layers",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1890348,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/skinlayers3d-fabric-1.11.3-mc26.2.jar",
+            "MD5": "d8daead6b45c8c79d5badd2bb9c36516"
+          }
+        },
+        {
+          "id": "btw.lowercase:skyboxify:3.1@jar",
+          "name": "Skyboxify",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 305545,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/skyboxify-3.1+26.2-fabric.jar",
+            "MD5": "33b4c91bc52d59dbe5898143d713e9bb"
+          }
+        },
+        {
+          "id": "me.flashyreese.mods.sodiumextra:sodium-extra:0.9.3+mc26.2@jar",
+          "name": "Sodium Extra",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 482602,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/sodium-extra-fabric-0.9.3+mc26.2.jar",
+            "MD5": "3e7a3b6bba94daca629627651ac524e5"
+          }
+        },
+        {
+          "id": "net.caffeinemc.mods:sodium:0.9.1+mc26.2@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1834384,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/sodium-fabric-0.9.1+mc26.2.jar",
+            "MD5": "12238397e6e067c00369e72999e8d163"
+          }
+        },
+        {
+          "id": "rynnavinx.sspb:sspb:7.0.0@jar",
+          "name": "Sodium Shadowy Path Blocks",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 67690,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/sodium-shadowy-path-blocks-fabric-7.0.0.jar",
+            "MD5": "caa6fd6067bbfc1d76a52a0a39136ccf"
+          }
+        },
+        {
+          "id": "com.sonicether.soundphysics:sound_physics_remastered:1.5.1+26.2@jar",
+          "name": "Sound Physics Remastered",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 201669,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/sound-physics-remastered-fabric-1.5.1+26.2.jar",
+            "MD5": "708f149b8ecce3ac1faa4f125d452ab0"
+          }
+        },
+        {
+          "id": "me.lucko:spark:1.10.187@jar",
+          "name": "Spark",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 3838499,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/spark-1.10.187-fabric.jar",
+            "MD5": "f44642c014bf5d88071bd297227ec673"
+          }
+        },
+        {
+          "id": "io.github.a5b84.statuseffectbars:status-effect-bars:1.0.12@jar",
+          "name": "Status Effect Bars",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 44942,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/status-effect-bars-1.0.12.jar",
+            "MD5": "2704d24a6d9d3bd38c4fe77d5fe88126"
+          }
+        },
+        {
+          "id": "com.supermartijn642.configlib:supermartijn642configlib:1.1.8@jar",
+          "name": "SuperMartijn642's Config Library",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 206149,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/supermartijn642configlib-1.1.8-fabric-mc26.2.jar",
+            "MD5": "af18a96e2d37a5d3194822b469c4c205"
+          }
+        },
+        {
+          "id": "com.thecsdev.commonmc:tcdcommons:5.5.6+fabric-26.2@jar",
+          "name": "TCDCommons API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 505291,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/tcdcommons-5.5.6+fn-26.2.jar",
+            "MD5": "cdf311d168c60faf4be9baf408f17dc1"
+          }
+        },
+        {
+          "id": "net.uku3lig:tiertagger:2.6.0+mc26.2@jar",
+          "name": "TierTagger",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 178824,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/tiertagger-fabric-2.6.0+mc26.2.jar",
+            "MD5": "aff87d825bdca0f3ba35bcb599a95c45"
+          }
+        },
+        {
+          "id": "net.uku3lig:totemcounter:1.13.0+mc26.2@jar",
+          "name": "TotemCounter",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 72436,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/totemcounter-fabric-1.13.0+mc26.2.jar",
+            "MD5": "80d288bee6f51ee5aef54a157788fe02"
+          }
+        },
+        {
+          "id": "net.pathdos:totemtweaks:1.2.0@jar",
+          "name": "Totem Tweaks",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 12849,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/totemtweaks-26.2-1.2.0.jar",
+            "MD5": "fcf44ef1cf240af1e8e10fbb5ad0f057"
+          }
+        },
+        {
+          "id": "net.uku3lig:ukulib:2.1.1+26.2@jar",
+          "name": "Ukulib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 456607,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/ukulib-fabric-2.1.1+26.2.jar",
+            "MD5": "2e9cfe5d296bdc5761e2d8895e72c8cd"
+          }
+        },
+        {
+          "id": "ru.berdinskiybear.armorhud:ukus-armor-hud:0.12.0+mc26.2@jar",
+          "name": "Uku's Armor HUD",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 49661,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/ukus-armor-hud-fabric-0.12.0+mc26.2.jar",
+            "MD5": "4daccc01bd0b8baebabddd3bf34e4af3"
+          }
+        },
+        {
+          "id": "fr.estecka.variantscit:variants-cit:5.7.0+26.1.2@jar",
+          "name": "Variants CIT",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 413809,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/variants-cit-5.7.0+26.1.2.jar",
+            "MD5": "1e5c2523ec6abab729722517dab5984e"
+          }
+        },
+        {
+          "id": "de.maxhenkel:voicechat:2.6.22+26.2@jar",
+          "name": "Simple Voice Chat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 5576838,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/voicechat-fabric-2.6.22+26.2.jar",
+            "MD5": "d03915bf7cc90357040396f5b6dccc64"
+          }
+        },
+        {
+          "id": "generated.fabricmod:walksylib:1.0.12+26.2@jar",
+          "name": "Walksy Lib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 283491,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/WalksyLib-1.0.12+26.2.jar",
+            "MD5": "eeeeef4b2c4f34ffc634705b96443f0d"
+          }
+        },
+        {
+          "id": "xaero.minimap:xaerominimap:26.5.1@jar",
+          "name": "Xaero's Minimap",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2221890,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/xaerominimap-fabric-26.2-26.5.1.jar",
+            "MD5": "9df496aad96361cc069fc9206d3cd352"
+          }
+        },
+        {
+          "id": "xaero.map:xaeroworldmap:1.46.1@jar",
+          "name": "Xaero's World Map",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1477484,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/xaeroworldmap-fabric-26.2-1.46.1.jar",
+            "MD5": "cd3ef5ea034a96bbf88aa2706b2858ce"
+          }
+        },
+        {
+          "id": "dev.isxander.yacl3.platform:yet_another_config_lib_v3:3.9.5+26.2-fabric@jar",
+          "name": "YetAnotherConfigLib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1121528,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/yet_another_config_lib_v3-3.9.5+26.2-fabric.jar",
+            "MD5": "b4e14cae8115abcae97377260c65843f"
+          }
+        },
+        {
+          "id": "dev.isxander:zoomify:2.16.1+26.2@jar",
+          "name": "Zoomify",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 562176,
+            "url": "https://creeper564.github.io/stars-files/servers/Stars-26.2-26.2/fabricmods/required/zoomify-2.16.1+26.2.jar",
+            "MD5": "4f65c14cb8745ee2dd5e39c8026df5f4"
+          }
+        }
+      ]
+    }
+  ]
+}
